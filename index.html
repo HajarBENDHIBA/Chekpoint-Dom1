@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM 1</title>
+</head>
+<body>
+
+    <div id="cart">
+        <div class="cart-item" data-id="1">
+            <span class="item-name">Item 1</span>
+            <span class="item-price">10.00</span>
+            <button class="decrease">-</button>
+            <span class="item-quantity">1</span>
+            <button class="increase">+</button>
+            <button class="like">❤️</button>
+            <button class="delete">Delete</button>
+        </div>
+        <div class="cart-item" data-id="2">
+            <span class="item-name">Item 2</span>
+            <span class="item-price">15.00</span>
+            <button class="decrease">-</button>
+            <span class="item-quantity">1</span>
+            <button class="increase">+</button>
+            <button class="like">❤️</button>
+            <button class="delete">Delete</button>
+        </div>
+        <div id="total">Total: $<span id="total-amount">25.00</span></div>
+    </div>
+    
+
+    <script src="js.js"></script>
+</body>
+</html>
